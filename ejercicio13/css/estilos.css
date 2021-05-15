@@ -1,0 +1,40 @@
+.titulo{
+    text-align: center;
+}
+
+.contenedor{
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    width: 100%;
+}
+
+.celda-1{
+    background: #75ec55;
+}
+
+.red-text{
+    color: red;
+    font-weight: bold;
+}
+
+th, td {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #000;
+    vertical-align: top;
+    border-spacing: 0;
+    padding: 5px;
+}
+
+.alinear-2{
+    vertical-align: middle;
+    text-align: left;
+    background: #34e0f3;
+}
+
+.alinear-6{
+    vertical-align: bottom;
+    text-align: right;
+    background: #dc79b3;
+}

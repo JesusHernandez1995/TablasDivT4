@@ -1,0 +1,37 @@
+.titulo{
+    color:red;
+    background: #83ad79;
+}
+
+.contenedor{
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    width: 60%;
+}
+
+th, td {
+    width: 20%;
+    text-align: center;
+    border: 1px solid #000;
+    vertical-align: top;
+    border-spacing: 0;
+    padding: 5px;
+}
+
+.alineado{
+    vertical-align: middle;
+}
+
+.main-items{
+    background: #efbc8c;
+}
+
+.yellow-items{
+    background: #efed8c;
+}
+
+/* Todos los elementos del tipo td que sean hijos de aquellos que tengan la clase smooth */
+.smooth > td {
+    background: #fce8bc;
+}

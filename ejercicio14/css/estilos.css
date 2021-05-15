@@ -1,0 +1,36 @@
+body{
+    background-image: url('../img/1532721443_349414_1532722351_noticia_normal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+table{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    padding: 0.5px;
+    width: 50%;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid #000;
+    border-spacing: 0;
+    width: 25%;
+}
+
+th{
+    background: #fff;
+}
+
+td{
+    background: #f6f667;
+}
